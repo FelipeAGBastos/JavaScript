@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Sistemas de multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res1"></div>
+
+    <script>
+        function calcular() {
+            var txtv = document.getElementById('txtvel')
+            var res = document.getElementById('res1')
+            var vel = Number(txtv.value)
+            res.innerHTML = 'Sua velocidade atual é ' + vel + ' km/h'
+
+            if (vel > 60) {
+                alert('Você foi multado!')
+                res.innerHTML += '<br><strong>Você foi multado!</strong>'
+            }
+        }
+    </script>
+
+    <hr>
+
+    <h1>Pizzaria Gatito</h1>
+    <input type="checkbox" name="tipopz" value="Peperoni"> Peperoni<br>
+    <input type="checkbox" name="tipopz" value="Peperoni2"> Peperoni2<br>
+    <input type="checkbox" name="tipopz" value="Peperoni3"> Peperoni3<br>
+    <input type="checkbox" name="tipopz" value="Peperoni4"> Peperoni4<br>
+    <input type="button" value="Pedir" onclick="desconto()">
+    <div id="res2"></div>
+
+    <script>
+        function desconto() {
+            var sabores = document.getElementsByName('tipopz')
+            var escolhidos = []
+            var res = document.getElementById('res2')
+
+            for (let i = 0; i < sabores.length; i++) {
+                if (sabores[i].checked) {
+                    escolhidos.push(sabores[i].value)
+                }
+            }
+
+            if (escolhidos.length == 0) {
+                res.innerHTML = 'Nenhuma pizza selecionada.'
+            } else {
+                res.innerHTML = 'Você escolheu: ' + escolhidos.join(', ')
+            }
+        }
+    </script>
+
+</body>
+</html>
