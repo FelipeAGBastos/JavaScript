@@ -1,0 +1,38 @@
+# 🚔 Simulador de Multa por Velocidade
+
+Sistema simples que verifica a velocidade inserida pelo usuário e informa se ele foi multado.
+
+## 🚀 Tecnologias Utilizadas
+- HTML5
+- JavaScript
+
+## 💡 Funcionalidades
+- Verifica a velocidade do carro
+- Exibe mensagem personalizada
+- Emite alerta se a velocidade for superior a 60 km/h
+
+## ▶️ Como Executar
+1. Abra `index.html` no navegador.
+2. Digite uma velocidade e clique em "Verificar".             
+
+
+
+
+
+# 🍕 Sistema de Pedidos – Pizzaria Gatito
+
+Sistema interativo para escolha de sabores de pizza com checkbox, e exibição do pedido final.
+
+## 🚀 Tecnologias Utilizadas
+- HTML5
+- JavaScript
+
+## 💡 Funcionalidades
+- Lista de sabores com checkboxes
+- Verifica quais sabores foram selecionados
+- Exibe os sabores escolhidos ao clicar em "Pedir"
+
+## ▶️ Como Executar
+1. Abra o arquivo HTML no navegador.
+2. Marque os sabores desejados e clique em "Pedir".
+3. Veja o resultado abaixo dos botões.
