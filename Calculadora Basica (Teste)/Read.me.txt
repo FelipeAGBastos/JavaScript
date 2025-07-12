@@ -1,0 +1,19 @@
+# 🧮 Calculadora de Soma com JavaScript
+
+Este projeto é uma calculadora simples que realiza a soma de dois números fornecidos pelo usuário.
+
+## 🚀 Tecnologias Utilizadas
+- HTML5
+- JavaScript
+
+## 💡 Funcionalidades
+- Entrada de dois números
+- Botão "Somar" que exibe o resultado da soma
+- Atualização dinâmica do resultado na página
+
+## ▶️ Como Executar
+1. Clone o repositório ou baixe os arquivos.
+2. Abra o arquivo `index.html` no navegador.
+
+## 📸 Demonstração
+> *(Insira aqui um print ou um link de vídeo no YouTube mostrando a calculadora em funcionamento)*
