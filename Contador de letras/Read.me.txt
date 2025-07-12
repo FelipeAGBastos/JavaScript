@@ -1,0 +1,16 @@
+# 🔡 Contador de Letras do Nome
+
+Pequeno projeto em JavaScript que solicita o nome do usuário e exibe quantas letras ele possui.
+
+## 🚀 Tecnologias Utilizadas
+- HTML5
+- JavaScript (prompt e manipulação do DOM)
+
+## 💡 Funcionalidades
+- Caixa de entrada interativa (prompt)
+- Exibição do total de letras do nome digitado
+
+## ▶️ Como Executar
+1. Baixe ou clone os arquivos.
+2. Abra o arquivo `.html` no navegador.
+3. Digite seu nome quando solicitado.
